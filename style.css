@@ -1,0 +1,36 @@
+div{
+  /*border: 1px solid #ccc;*/
+}
+  
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+.navbar{
+  height: 80px;
+  line-height: 78px;
+  border-bottom: 2px solid #333;
+}
+
+.navbar .nav-title{
+  font-size: 36px;
+  margin: auto 0 auto 10%;
+  float: left;
+}
+
+.navbar .nav-cart-container{
+  margin: 0 10% 0 0;
+  float: right;
+}
+
+.navbar .nav-cart-container .nav-cart-image{
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  float: left;  
+}
+
+.navbar .nav-cart-container .nav-cart-text{
+  font-size: 24px;  
+  float: left;
+}
