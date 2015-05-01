@@ -82,5 +82,32 @@ body{
 
 .inventory-container{
   border: 2px solid #999;
-  height: 500px;
+  height: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.inventory-container .item-container{
+  width: 25%;
+  height: 30%;
+  display: inline-table;
+  margin: 20px 0 0 0 ;
+  border: 2px solid #999;
+}
+
+.inventory-container .item-container .item-name{
+
+}
+
+.inventory-container .item-container .item-image img{
+  max-width: 290px;
+  max-height: 200px;
+}
+
+.inventory-container .item-container .item-price{
+
+}
+
+.inventory-container .item-container .item-button-container{
+
 }
