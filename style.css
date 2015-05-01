@@ -1,15 +1,16 @@
 div{
   /*border: 1px solid #ccc;*/
 }
-  
+
 body{
   font-family: Helvetica, sans-serif;
+  color: #333;
 }
 
 .navbar{
   height: 80px;
   line-height: 78px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #666;
 }
 
 .navbar .nav-title{
@@ -33,4 +34,37 @@ body{
 .navbar .nav-cart-container .nav-cart-text{
   font-size: 24px;  
   float: left;
+}
+
+.home-title{
+  position: relative;
+  z-index: 1;
+  font-size: 60px;
+  height: 5em;
+  line-height: 5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.home-title::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("http://s3.amazonaws.com/viking_education/demos/viking_store_app/viking_ship_background_medium.jpg");
+  background-size: contain;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  opacity: 0.1;
+}
+
+.home-tagline{
+
+}
+
+.home-tagline2{
+  
 }
