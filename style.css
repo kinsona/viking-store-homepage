@@ -78,11 +78,11 @@ body{
   font-style: italic;
   height: 2em;
   line-height: 2em;
+  border-bottom: 2px solid #999;
 }
 
 .inventory-container{
-  border: 2px solid #999;
-  height: 900px;
+  height: 650px;
   margin: auto;
   text-align: center;
 }
@@ -132,4 +132,18 @@ body{
   font-weight: bold;
   padding: 0.5em 2em;
   background-color: #F6B26B;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 0.5em;
+  font-weight: bold;
+}
+
+.pagination .next {
+  margin: 1em;
 }
