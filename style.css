@@ -147,3 +147,50 @@ body{
 .pagination .next {
   margin: 1em;
 }
+
+.footer {
+  height: 170px;
+  background-color: #333;
+}
+
+.footer .contact-text {
+  font-size: 16px;
+  padding: 2em 0 0.5em 0;
+  color: #F6B26B;
+  text-align: center;
+}
+
+
+.footer .contact-phone,.contact-email {
+  text-align: center;
+  height: 32px;
+  margin:  12px;
+}
+
+.footer .contact-phone img {
+  max-width: 32px;
+  display: inline-block;
+}
+
+.footer .contact-phone div {
+  width: 180px;
+  color: #fff;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 2px 0 0 8px;
+}
+
+.footer .contact-email img {
+  max-width: 32px;
+  display: inline-block;
+}
+
+.footer .contact-email div {
+  width: 180px;
+  color: #fff;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 2px 0 0 8px;
+}
