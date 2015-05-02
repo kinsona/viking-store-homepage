@@ -8,8 +8,8 @@ body{
 }
 
 .navbar{
-  height: 66px;
-  line-height: 66px;
+  height: 48px;
+  line-height: 48px;
   border-bottom: 2px solid #999;
 }
 
@@ -25,9 +25,9 @@ body{
 }
 
 .navbar .nav-cart-container .nav-cart-image{
-  width: 48px;
-  height: 48px;
-  margin: 10px;
+  width: 36px;
+  height: 36px;
+  margin: 6px;
   float: left;  
 }
 
@@ -45,8 +45,8 @@ body{
   position: relative;
   z-index: 1;
   font-size: 60px;
-  height: 5em;
-  line-height: 5em;  
+  height: 4em;
+  line-height: 4em;  
 }
 
 .home-container .home-title::before{
@@ -65,9 +65,9 @@ body{
 }
 
 .home-container .home-tagline{
-  font-size: 38px;
-  height: 3em;
-  line-height: 3em;
+  font-size: 36px;
+  height: 2.4em;
+  line-height: 2.4em;
   background-color: #333;
   color: #DDD;
 }
@@ -76,8 +76,8 @@ body{
   font-size: 28px;
   font-weight: normal;
   font-style: italic;
-  height: 2em;
-  line-height: 2em;
+  height: 1.8em;
+  line-height: 1.8em;
   border-bottom: 2px solid #999;
 }
 
@@ -145,7 +145,7 @@ body{
 }
 
 .pagination .next {
-  margin: 1em;
+  margingin: 1em;
 }
 
 .footer {
